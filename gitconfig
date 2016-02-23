@@ -1,0 +1,14 @@
+[user]
+	email = lcarlosglez@gmail.com
+  name = Luis Carlos González Hernández
+[alias]
+  com = checkout master
+  cob = checkout -b
+  co = checkout
+  rbi = rebase -i
+  rbm = rebase master
+  s = status
+  a = add .
+  c = commit -m
+[core]
+	excludesfile = /home/kentverger/.gitignore
