@@ -5,10 +5,13 @@
   com = checkout master
   cob = checkout -b
   co = checkout
-  rbi = rebase -i
+  rbi = "!sh -c \"git rebase -i HEAD~$1\" -"
+  pfo = push -f origin
+  fixup = "!sh -c \"git a && git c \"Fix\" && git rbi $1\" -"
   rbm = rebase master
   s = status
   a = add .
   c = commit -m
 [core]
-	excludesfile = /home/kentverger/.gitignore
+  excludesfile = /home/kentverger/.gitignore
+  editor = vim
