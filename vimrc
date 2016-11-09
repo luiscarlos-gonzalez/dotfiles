@@ -18,6 +18,9 @@ Plugin 'nelstrom/vim-textobj-rubyblock'
 Plugin 'tpope/vim-bundler'
 Plugin 'scrooloose/nerdtree'
 
+call vundle#end()
+
+set runtimepath^=~/.vim/bundle/ctrlp.vim
 syntax on
 runtime macros/matchit.vim
 set tabstop=2 softtabstop=0 expandtab shiftwidth=2 smarttab
