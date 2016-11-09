@@ -1,7 +1,7 @@
 #!/bin/sh
 
-ls -s vimrc ~/.vimrc
-ls -s gitignore ~/.gitignore
-ls -s zshrc ~/.zshrc
-ls -s gitconfig ~/.gitconfig
-ls -s tmux.conf ~/.tmux.conf
+cp vimrc ~/.vimrc
+cp gitignore ~/.gitignore
+cp zshrc ~/.zshrc
+cp gitconfig ~/.gitconfig
+cp tmux.conf ~/.tmux.conf
