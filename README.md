@@ -1,4 +1,4 @@
-Personal dotfiles
+# Personal dotfiles
 
 ## Usage
 `git clone git@github.com:Kentverger/dotfiles.git`
