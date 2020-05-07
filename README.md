@@ -1,6 +1,6 @@
 Personal dotfiles
 
-##Usage
+## Usage
 `git clone git@github.com:Kentverger/dotfiles.git`
 
 `cd dotfiles`
