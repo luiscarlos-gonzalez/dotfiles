@@ -1,5 +1,5 @@
 [user]
-	email = lcarlosglez@gmail.com
+  email = mlyxqyqe4@mozmail.com
   name = Luis Carlos González Hernández
 [alias]
   com = checkout master
@@ -13,5 +13,5 @@
   a = add .
   c = commit -m
 [core]
-  excludesfile = /home/kentverger/.gitignore
-  editor = vim
+  excludesfile = ~/.gitignore
+  editor = nvim
